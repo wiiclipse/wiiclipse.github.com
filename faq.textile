@@ -1,0 +1,4 @@
+---
+layout: default
+title: WiiClipse Frequently Asked Questions
+---
