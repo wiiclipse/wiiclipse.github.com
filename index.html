@@ -1,58 +1,111 @@
----
-layout: default
-title: WiiClipse Eclipse CDT Plugin
----
-<p>
-WiiClipse is a Eclipse CDT plugin that supports you to create and run
-Nintendo Wii homebrew applications using the devkitPPC toolchain.<br>
-</p>
-<h2>Requirements</h2>
-<ul>
-<li>Platform: Windows, Linux, Mac<br>
-  </li><li><a href="http://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers-includes-incubating-components/indigosr1" target="_blank">Eclipse IDE for C/C++ Developers</a><br>
-  </li><li><a href="http://sourceforge.net/projects/devkitpro/files/devkitPPC/" target="_blank">devkitPPC</a><br>
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/Product">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="description" content="Eclipse CDT plugin for development of Nintendo Wii homebrew applications">
+  <meta name="author" content="Bo Meier">
+  <meta name="keywords" content="WiiClipse, Eclipse, CDT, GCC, Plugin, homebrew, devkitPPC, devkitPro, Nintendo, Wii">
 
-</li>
-</ul>
-<h2>Installation</h2>
-<h4>Update Site</h4>
-<p>WiiClipse can be installed using the WiiClipse Eclipse Update Site</p>
-<p>To install WiiClipse using the WiiClipse Update Site<br>
-</p>
-<ol>
-  <li>open the Eclipse Installation Manager (from Eclipse select <span style="font-style: italic;">Help</span>-&gt;<span style="font-style: italic;">Install New Software...</span>)</li>
-  <li>paste the URL <span style="font-style: italic;">http://wiiclipse.github.com/update-site/</span>&nbsp;
-to the <span style="font-style: italic;">Work with</span><span style="font-weight: bold;"> </span>field to install software&nbsp;
-from the WiiClipse Update Site</li>
-</ol>
-<h4>Eclipse Marketplace</h4>
-WiiClipse can be installed using the <a href="http://marketplace.eclipse.org/marketplace-client-intro">Eclipse
-Marketplace Client</a>.<br>
-<!--<h4>Drag and Drop Install (Indigo only)
-<p>Drag and Drop the <a
- href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=125186"
- title="Drag and drop into a running Eclipse Indigo workspace to install WiiClipse"
- style="text-decoration: none;"><img
- src="http://marketplace.eclipse.org/misc/installbutton.png"></a> icon
-into a running Eclipse Indigo workspace to install WiiClipse.</p>-->
-<h2>License</h2>
-<p>GPL License</p>
-<p>Copyright 2011 Bo Meier</p>
-<p><span style="font-style: italic;">&nbsp;&nbsp;&nbsp; This program is
-free software: you can redistribute it and/or modify</span><br style="font-style: italic;">
-<span style="font-style: italic;">&nbsp;&nbsp;&nbsp; it under the terms
-of the GNU General Public License as published by</span><br style="font-style: italic;">
-<span style="font-style: italic;">&nbsp;&nbsp;&nbsp; the Free Software
-Foundation, either version 3 of the License, or</span><br style="font-style: italic;">
-<span style="font-style: italic;">&nbsp;&nbsp;&nbsp; (at your option)
-any later version.</span><br style="font-style: italic;">
-<br style="font-style: italic;">
-<span style="font-style: italic;">&nbsp;&nbsp;&nbsp; This program is
-distributed in the hope that it will be useful,</span><br style="font-style: italic;">
-<span style="font-style: italic;">&nbsp;&nbsp;&nbsp; but WITHOUT ANY
-WARRANTY; without even the implied warranty of</span><br style="font-style: italic;">
-<span style="font-style: italic;">&nbsp;&nbsp;&nbsp; MERCHANTABILITY or
-FITNESS FOR A PARTICULAR PURPOSE.&nbsp; See the</span><br style="font-style: italic;">
-<span style="font-style: italic;">&nbsp;&nbsp;&nbsp; GNU General Public
-License for more details.</span><br>
-</p>
+  <meta itemprop="name" content="WiiClipse">
+  <meta itemprop="description" content="Eclipse CDT plugin for development of Nintendo Wii homebrew applications">
+
+  <title>{{ page.title }}</title>
+  <style type="text/css">
+body {
+  margin-top: 1em;
+  background-color: white;
+  font-family: Helvetica,Arial,FreeSans,san-serif;
+  color: #333333;
+}
+#container {
+  margin: 0 auto;
+  width: 700px;
+}
+h1 {
+  font-size: 3.8em;
+  color: #317de7;
+  margin-bottom: 3px;
+}
+h1 .small {
+  font-size: 0.4em;
+}
+h1 a {
+  text-decoration: none;
+}
+h2 {
+  font-size: 1.5em;
+  color: #317de7;
+}
+h3 {
+  text-align: center;
+  color: #317de7;
+}
+a {
+  color: #317de7;
+}
+.description {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-style: italic;
+}
+.download {
+  border-style: none;
+  float: right;
+text-decoration: none;
+
+}
+a .download {
+  border-style: none;
+}
+pre {
+  padding: 15px;
+  background: #000000 none repeat scroll 0% 50%;
+  color: #ffffff;
+}
+hr {
+  border-style: none none solid;
+  border-color: -moz-use-text-color -moz-use-text-color #aaaaaa;
+  border-width: 0 0 1px;
+  width: 80%;
+}
+.footer {
+  text-align: center;
+  padding-top: 30px;
+  font-style: italic;
+}
+  </style>
+  
+<!-- g+ -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+<!-- analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25927747-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+<a href="http://github.com/wiiclipse"><img style="border: 0pt none ; position: absolute; top: 0pt; right: 0pt;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+<div>
+<h1 align="center"><a href="http://wiiclipse.github.com">WiiClipse</a></span></h1>
+</div>
+</body>
+</html>
