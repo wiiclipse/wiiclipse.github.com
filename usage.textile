@@ -1,6 +1,0 @@
----
-layout: default
-title: WiiClipse Usage
----
-h2. Usage
-
