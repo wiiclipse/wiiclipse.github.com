@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-	<feature url="features/com.github.wiiclipse.feature_1.0.0.201205191436.jar" id="com.github.wiiclipse.feature"
-		version="1.0.0.201205191436">
+	<feature url="features/com.github.wiiclipse.feature_1.0.0.201206291021-c3315e2.jar" id="com.github.wiiclipse.feature"
+		version="1.0.0.201206291021-c3315e2">
 		<category name="wiiclipse.category"/>
 	</feature>
-	<category-def name="wiiclipse.category" label="WiiClipse">
-		<description>WiiClipse Eclipse Plugin</description>
+	<category-def name="wiiclipse.category" label="wiiclipse">
+		<description>wiiclipse Eclipse Plugin</description>
 	</category-def>
 </site>
