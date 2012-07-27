@@ -38,7 +38,7 @@ On the general preference page you are able to change the location of the devkit
 The *Run* page is used to setup the path to the _wiiload_ executable that is used to launch applications as well as to setup a default connection mode that will be used when creating new launch configurations.
 
 
-wiiclipse can be update to the most recent from using the Eclipse Update Manager (*Help*->*Check for Updates*)
+wiiclipse can be updated to the most recent version using the Eclipse Update Manager (*Help*->*Check for Updates*).
 <!-- more end -->
 
 
