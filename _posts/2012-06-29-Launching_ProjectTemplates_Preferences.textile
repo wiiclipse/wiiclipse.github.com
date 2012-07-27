@@ -1,0 +1,44 @@
+---
+title: Launching, Project Templates, Preferences
+layout: post
+category: news
+---
+
+The version of wiiclipse that has been released earlier today (1.0.0.201206291021-c3315e2) officially introduces a couple of features that have already been sitting on the feature list for a while:
+* launching Wii applications (elf's as well as dol's) using wiiload from within Eclipse
+* project templates for executables and static libraries
+* a user interface to change preferences like paths and launch related stuff  
+
+<!-- more start -->
+
+h3. Launching Wii applications
+
+This feature is available from *Run*->*Run Configurations...*. Choose *Wii Application* and press the _New Button_ to create a new launch configuration.
+
+!/images/launch_config.png!
+
+Choose the *project* and the *elf or dol* that you want to launch. You can either choose to use a *TCP/IP* connection or a *USB Gecko* to load your application to your Wii console.
+
+h3. Project templates
+
+Project templates for empty executable and static library projects are available from the *New Project Wizard*.
+
+!/images/project_templates.png!
+
+If you choose to use a project template, wiiclipse automatically creates a source folder called "source" and adds libogc's include path to the compiler options on project creation. For executable projects it will also add libogc to the specific linker options.
+
+h3. Preferences
+
+The wiiclipse preference pages can be accessed from *Window*->*Preferences*.
+
+!/images/preferences.png!
+
+On the general preference page you are able to change the location of the devkitPPC version that is used to build projects as well as the location of the libogc version that is linked to your executable if you choose to use a project template. 
+
+The *Run* page is used to setup the path to the _wiiload_ executable that is used to launch applications as well as to setup a default connection mode that will be used when creating new launch configurations.
+
+
+wiiclipse can be update to the most recent from using the Eclipse Update Manager (*Help*->*Check for Updates*)
+<!-- more end -->
+
+

@@ -1,0 +1,14 @@
+---
+layout: default
+title: wiiclipse - News
+---
+
+<h3>News</h3>
+{% for post in site.categories.news %}
+	<em><small>{{ post.date | date_to_string }}</small> - <strong>{{ post.title }}</strong></em> 
+	<div class="news">
+	{{ post.content | replace:'<!-- more start -->','<!--' | replace:'<!-- more end -->','-->'  }}
+	<small><a href="{{ post.url }}">read more</a></small>
+	</div>
+{% endfor %}
+

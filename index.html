@@ -3,6 +3,18 @@ layout: default
 title: wiiclipse - Eclipse CDT plugin
 ---
 
+<h3>Latest News</h3>
+
+    {% for post in site.categories.news limit:3 %}
+	<em><small>{{ post.date | date_to_string }}</small> - <strong>{{ post.title }}</strong></em> 
+	<div class="news">
+	{{ post.content | replace:'<!-- more start -->','<!--' | replace:'<!-- more end -->','-->'  }}
+	<small><a href="{{ post.url }}">read more</a></small>
+	</div>
+    {% endfor %}
+
+<small><a href="news.html">older News</a></small><p/>
+
 <h3>Features</h3>
 
 <ul>
