@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-	<feature url="features/com.github.wiiclipse.feature_1.0.0.201206291021-c3315e2.jar" id="com.github.wiiclipse.feature"
-		version="1.0.0.201206291021-c3315e2">
+	<feature url="features/com.github.wiiclipse.feature_1.0.0.201207281445-686858d.jar" id="com.github.wiiclipse.feature"
+		version="1.0.0.201207281445-686858d">
 		<category name="wiiclipse.category"/>
 	</feature>
 	<category-def name="wiiclipse.category" label="wiiclipse">
